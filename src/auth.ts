@@ -1,5 +1,5 @@
 import { buildAuthUrl, exchangeCodeForTokens } from './freeagent-client.js';
-import { writeFileSync, existsSync } from 'fs';
+import { writeFileSync } from 'fs';
 import { resolve } from 'path';
 import * as readline from 'readline';
 
